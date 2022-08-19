@@ -36,7 +36,7 @@ void PrintArray(int[] arr)
     Console.Write("]");
 }
 
-int[] array = CreateArray(15, 100, 1000);
+int[] array = CreateArray(10, 100, 1000);
 PrintArray(array);
 Console.WriteLine();
 int posEven = PosEven(array);
